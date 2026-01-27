@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "ricedelight:bell_pepper"
+    }
+  ],
+  "result": [
+    {
+      "count": 3,
+      "item": "ricedelight:bell_pepper_chunk"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}
