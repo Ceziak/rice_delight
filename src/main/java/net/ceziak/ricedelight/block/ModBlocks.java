@@ -24,6 +24,13 @@ public class ModBlocks {
     public static final RegistryObject<Block> BELL_PEPPER_CRATE = registerBlock("bell_pepper_crate",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COMPOSTER).sound(SoundType.WOOD)));
 
+    public static final RegistryObject<Block> BELL_PEPPER_CROP = BLOCKS.register("bell_pepper_crop",
+            () -> new BellPepperCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
+
+
+
+
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
