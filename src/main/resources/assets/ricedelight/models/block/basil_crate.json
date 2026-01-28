@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ricedelight:block/crate_bottom",
+    "up": "ricedelight:block/basil_crate_top",
+    "north": "ricedelight:block/basil_crate_side",
+    "east": "ricedelight:block/basil_crate_side",
+    "south": "ricedelight:block/basil_crate_side",
+    "west": "ricedelight:block/basil_crate_side",
+    "particle": "ricedelight:block/crate_bottom"
+  },
+  "render_type": "solid"
+}

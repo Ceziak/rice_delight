@@ -1,6 +1,7 @@
 package net.ceziak.ricedelight.item;
 
 import net.ceziak.ricedelight.RiceDelight;
+import net.ceziak.ricedelight.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,6 +22,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.BELL_PEPPER_CHUNK.get());
                         pOutput.accept(ModItems.APPLE_CINNAMON_RICE.get());
                         pOutput.accept(ModItems.BASIL_LEAF.get());
+
+                        pOutput.accept(ModBlocks.BASIL_CRATE.get());
                     })
                     .build());
 

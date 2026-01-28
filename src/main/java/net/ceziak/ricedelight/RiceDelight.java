@@ -1,9 +1,9 @@
 package net.ceziak.ricedelight;
 
 import com.mojang.logging.LogUtils;
+import net.ceziak.ricedelight.block.ModBlocks;
 import net.ceziak.ricedelight.item.ModCreativeModTabs;
 import net.ceziak.ricedelight.item.ModItems;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -27,6 +27,8 @@ public class RiceDelight {
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
