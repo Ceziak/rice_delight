@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "ricedelight:bell_pepper_crate"
+    }
+  },
+  "result": {
+    "item": "ricedelight:bell_pepper",
+    "count": 9
+  }
+}
