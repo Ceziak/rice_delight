@@ -22,6 +22,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.BELL_PEPPER_CHUNK.get());
                         pOutput.accept(ModItems.APPLE_CINNAMON_RICE.get());
                         pOutput.accept(ModItems.BASIL_LEAF.get());
+                        pOutput.accept(ModItems.ROLLING_PIN.get());
+                        pOutput.accept(ModItems.RAW_WRAP.get());
 
                         pOutput.accept(ModBlocks.BASIL_CRATE.get());
                     })

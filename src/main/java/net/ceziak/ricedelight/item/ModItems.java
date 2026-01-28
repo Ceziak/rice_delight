@@ -2,6 +2,7 @@ package net.ceziak.ricedelight.item;
 
 import net.ceziak.ricedelight.RiceDelight;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -18,6 +19,10 @@ public class ModItems {
     public static final RegistryObject<Item> APPLE_CINNAMON_RICE = ITEMS.register("apple_cinnamon_rice",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BASIL_LEAF = ITEMS.register("basil_leaf",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ROLLING_PIN = ITEMS.register("pin",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_WRAP = ITEMS.register("raw_wrap",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
