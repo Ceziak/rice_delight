@@ -39,7 +39,7 @@ public class RiceDelight {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        
+
     }
 
     @SubscribeEvent

@@ -20,6 +20,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.BELL_PEPPER.get());
                         pOutput.accept(ModItems.BELL_PEPPER_CHUNK.get());
                         pOutput.accept(ModItems.APPLE_CINNAMON_RICE.get());
+                        pOutput.accept(ModItems.BASIL_LEAF.get());
                     })
                     .build());
 
