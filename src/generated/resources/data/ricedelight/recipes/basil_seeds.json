@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ricedelight:basil_leaf"
+    }
+  ],
+  "result": {
+    "item": "ricedelight:basil_seeds",
+    "count": 1
+  }
+}

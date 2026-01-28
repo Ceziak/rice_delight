@@ -2,5 +2,6 @@
   "parent": "minecraft:block/crop",
   "textures": {
     "crop": "ricedelight:block/basil_crop_stage1"
-  }
+  },
+  "render_type": "cutout"
 }

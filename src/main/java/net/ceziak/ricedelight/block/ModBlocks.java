@@ -26,7 +26,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> BELL_PEPPER_CROP = BLOCKS.register("bell_pepper_crop",
             () -> new BellPepperCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
-    public static final RegistryObject<Block> BASIL_CROP = BLOCKS.register("basil_pepper_crop",
+    public static final RegistryObject<Block> BASIL_CROP = BLOCKS.register("basil_crop",
             () -> new BasilCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
 
 
