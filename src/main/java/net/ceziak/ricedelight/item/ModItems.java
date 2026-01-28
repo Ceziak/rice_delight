@@ -28,6 +28,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> BELL_PEPPER_SEEDS = ITEMS.register("bell_pepper_seeds",
             () -> new ItemNameBlockItem(ModBlocks.BELL_PEPPER_CROP.get(), new Item.Properties()));
+    public static final RegistryObject<Item> BASIL_SEEDS = ITEMS.register("basil_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.BASIL_CROP.get(), new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

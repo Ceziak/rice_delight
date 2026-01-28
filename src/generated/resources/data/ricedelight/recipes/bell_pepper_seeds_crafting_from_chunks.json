@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "ricedelight:bell_pepper_chunk"
+    }
+  },
+  "result": {
+    "item": "ricedelight:bell_pepper_seeds",
+    "count": 1
+  }
+}

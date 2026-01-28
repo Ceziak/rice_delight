@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ricedelight:bell_pepper"
+    }
+  ],
+  "result": {
+    "item": "ricedelight:bell_pepper_seeds",
+    "count": 3
+  }
+}

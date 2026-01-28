@@ -33,7 +33,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
         LootItemCondition.Builder lootitemcondition$builder = LootItemBlockStatePropertyCondition
                 .hasBlockStateProperties(ModBlocks.BELL_PEPPER_CROP.get())
-                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(BellPepperCropBlock.AGE, 5));
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(BellPepperCropBlock.AGE, 4));
 
         this.add(ModBlocks.BELL_PEPPER_CROP.get(), createCropDrops(ModBlocks.BELL_PEPPER_CROP.get(), ModItems.BELL_PEPPER.get(),
                 ModItems.BELL_PEPPER_SEEDS.get(), lootitemcondition$builder));

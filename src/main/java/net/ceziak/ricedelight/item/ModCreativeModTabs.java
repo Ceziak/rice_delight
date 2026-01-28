@@ -26,6 +26,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.RAW_WRAP.get());
 
                         pOutput.accept(ModItems.BELL_PEPPER_SEEDS.get());
+                        pOutput.accept(ModItems.BASIL_SEEDS.get());
 
                         pOutput.accept(ModBlocks.BASIL_CRATE.get());
                         pOutput.accept(ModBlocks.BELL_PEPPER_CRATE.get());

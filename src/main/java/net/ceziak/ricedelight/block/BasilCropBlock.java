@@ -9,13 +9,13 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 
-public class BellPepperCropBlock extends CropBlock {
+public class BasilCropBlock extends CropBlock {
 
-    public static final int MAX_AGE = 4;
-    public static final IntegerProperty AGE = BlockStateProperties.AGE_4;
+    public static final int MAX_AGE = 3;
+    public static final IntegerProperty AGE = BlockStateProperties.AGE_3;
 
 
-    public BellPepperCropBlock(Properties pProperties) {
+    public BasilCropBlock(Properties pProperties) {
         super(pProperties);
     }
 
