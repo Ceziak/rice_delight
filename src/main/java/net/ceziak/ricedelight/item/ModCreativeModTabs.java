@@ -53,6 +53,10 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.JOLLOF_RICE.get());
                         pOutput.accept(ModItems.STUFFED_BELL_PEPPER.get());
 
+                        pOutput.accept(ModItems.ONION_HEAD.get());
+                        pOutput.accept(ModItems.SCALLIONS.get());
+                        pOutput.accept(ModItems.CHOPPED_SCALLIONS.get());
+
                         pOutput.accept(ModItems.BELL_PEPPER.get());
                         pOutput.accept(ModItems.BELL_PEPPER_CHUNK.get());
 

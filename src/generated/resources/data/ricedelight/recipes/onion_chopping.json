@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "farmersdelight:onion"
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "ricedelight:onion_head"
+    },
+    {
+      "count": 1,
+      "item": "ricedelight:scallions"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

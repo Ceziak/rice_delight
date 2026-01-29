@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "farmersdelight:cooked_rice", "required": false },
+    { "id": "farmersdelight:fried_rice", "required": false }
+  ]
+}

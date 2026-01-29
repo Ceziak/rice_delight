@@ -16,6 +16,11 @@ public class ModFoods {
     public static final FoodProperties BELL_PEPPER_CHUNK = new FoodProperties.Builder().nutrition(1).fast()
             .saturationMod(1f).build();
 
+    public static final FoodProperties ONION_HEAD = new FoodProperties.Builder().nutrition(2)
+            .saturationMod(0.5f).build();
+    public static final FoodProperties CHOPPED_SCALLIONS = new FoodProperties.Builder().nutrition(1).fast()
+            .saturationMod(1f).build();
+
     public static final FoodProperties BASIL_LEAF = new FoodProperties.Builder().nutrition(1).fast()
             .saturationMod(1f).effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 60), 0.75f).build();
 

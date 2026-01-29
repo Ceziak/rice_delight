@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "minecraft:beetroot", "required": false },
+    { "id": "minecraft:brown_mushroom", "required": false },
+    { "id": "minecraft:red_mushroom", "required": false },
+    { "id": "farmersdelight:onion", "required": false },
+    { "id": "farmersdelight:tomato", "required": false },
+    { "id": "farmersdelight:cabbage", "required": false },
+    { "id": "farmersdelight:cabbage_leaf", "required": false }
+  ]
+}

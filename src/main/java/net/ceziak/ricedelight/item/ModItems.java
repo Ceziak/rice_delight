@@ -85,6 +85,13 @@ public class ModItems {
     public static final RegistryObject<Item> BASIL_SEEDS = ITEMS.register("basil_seeds",
             () -> new ItemNameBlockItem(ModBlocks.BASIL_CROP.get(), new Item.Properties()));
 
+    public static final RegistryObject<Item> ONION_HEAD = ITEMS.register("onion_head",
+            () -> new Item(new Item.Properties().food(ModFoods.ONION_HEAD)));
+    public static final RegistryObject<Item> SCALLIONS = ITEMS.register("scallions",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CHOPPED_SCALLIONS = ITEMS.register("chopped_scallions",
+            () -> new Item(new Item.Properties().food(ModFoods.CHOPPED_SCALLIONS)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
