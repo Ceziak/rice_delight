@@ -2,14 +2,53 @@
   "item.ricedelight.bell_pepper": "Bell Pepper",
   "item.ricedelight.bell_pepper_chunk": "Bell Pepper Chunk",
   "item.ricedelight.apple_cinnamon_rice": "Bowl of Apple & Cinnamon Rice",
+  "item.ricedelight.cinnamon": "Cinnamon",
   "item.ricedelight.basil_leaf": "Basil Leaf",
   "item.ricedelight.pin": "Rolling Pin",
+  "item.ricedelight.hammer": "Wooden Hammer",
   "item.ricedelight.raw_wrap": "Raw Wrap",
+  "item.ricedelight.cooked_wrap": "Cooked Wrap",
+  "item.ricedelight.burnt_wrap": "Burnt Wrap",
   "item.ricedelight.bell_pepper_seeds": "Bell Pepper Seeds",
   "item.ricedelight.basil_seeds": "Basil Seeds",
 
+  "item.ricedelight.risotto": "Risotto",
+  "item.ricedelight.jollof_rice": "Jollof Rice",
+  "item.ricedelight.stuffed_bell_pepper": "Stuffed Bell Pepper",
+
+
+
+  "item.ricedelight.egg_bacon_b": "Egg & Bacon Burrito",
+  "item.ricedelight.half_egg_bacon_b": "Sliced Egg & Bacon Burrito",
+
+  "item.ricedelight.fried_rice_veggie_b": "Fried Rice & Veggie Burrito",
+  "item.ricedelight.half_fried_rice_veggie_b": "Sliced Fried Rice & Veggie Burrito",
+
+  "item.ricedelight.veggie_b": "Veggie Burrito",
+  "item.ricedelight.half_veggie_b": "Sliced Veggie Burrito",
+
+  "item.ricedelight.chicken_veggie_b": "Chicken & Veggie Burrito",
+  "item.ricedelight.half_chicken_veggie_b": "Sliced Chicken & Veggie Burrito",
+
+  "item.ricedelight.beef_cabbage_b": "Beef & Cabbage Burrito",
+  "item.ricedelight.half_beef_cabbage_b": "Sliced Beef & Cabbage Burrito",
+
+  "item.ricedelight.beef_tomato_b": "Beef & Tomato Burrito",
+  "item.ricedelight.half_beef_tomato_b": "Sliced Beef & Tomato Burrito",
+
+  "item.ricedelight.burnt_b": "Burnt Burrito",
+  "item.ricedelight.half_burnt_b": "Sliced Burnt Burrito",
+
+
+
+  "item.ricedelight.omelette": "Omelette",
+  "item.ricedelight.omurice": "Omurice",
+  "item.ricedelight.omelette_roll": "Omelette Roll",
+
   "block.ricedelight.basil_crate": "Basil Crate",
+  "block.ricedelight.basil_crop": "Basil",
   "block.ricedelight.bell_pepper_crate": "Bell Pepper Crate",
+  "block.ricedelight.bell_pepper_crop": "Bell Peppers",
 
   "creativetab.rice_delight": "Rice Delight"
 }

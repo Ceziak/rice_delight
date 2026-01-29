@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "farmersdelight:cooked_bacon"
+    },
+    {
+      "item": "ricedelight:omelette"
+    },
+    {
+      "item": "farmersdelight:cooked_rice"
+    },
+    {
+      "item": "ricedelight:cooked_wrap"
+    }
+  ],
+  "result": {
+    "item": "ricedelight:egg_bacon_b",
+    "count": 1
+  }
+}

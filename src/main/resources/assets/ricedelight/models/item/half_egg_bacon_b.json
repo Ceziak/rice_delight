@@ -1,0 +1,7 @@
+
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ricedelight:item/bacon_egg_rice_sliced_burrito"
+  }
+}

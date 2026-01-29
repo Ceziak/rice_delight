@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "ricedelight:beef_cabbage_b"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "ricedelight:half_beef_cabbage_b"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

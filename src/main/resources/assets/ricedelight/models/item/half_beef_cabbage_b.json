@@ -1,0 +1,7 @@
+
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ricedelight:item/rice_beef_cabbage_sliced_burrito"
+  }
+}

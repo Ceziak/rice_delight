@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "ricedelight:egg_bacon_b"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "ricedelight:half_egg_bacon_b"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

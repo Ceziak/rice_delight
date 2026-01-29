@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "farmersdelight:tomato"
+    },
+    {
+      "item": "farmersdelight:beef_patty"
+    },
+    {
+      "item": "farmersdelight:cooked_rice"
+    },
+    {
+      "item": "ricedelight:cooked_wrap"
+    }
+  ],
+  "result": {
+    "item": "ricedelight:beef_tomato_b",
+    "count": 1
+  }
+}

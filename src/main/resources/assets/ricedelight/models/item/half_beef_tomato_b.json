@@ -1,0 +1,8 @@
+
+
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ricedelight:item/beef_tomato_rice_sliced_burrito"
+  }
+}

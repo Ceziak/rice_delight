@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "ricedelight:chicken_veggie_b"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "ricedelight:half_chicken_veggie_b"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

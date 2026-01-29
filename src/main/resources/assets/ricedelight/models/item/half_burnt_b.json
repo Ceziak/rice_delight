@@ -1,0 +1,7 @@
+
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ricedelight:item/burnt_sliced_burrito"
+  }
+}

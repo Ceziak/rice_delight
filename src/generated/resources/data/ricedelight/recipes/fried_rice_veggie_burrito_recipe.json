@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "farmersdelight:tomato"
+    },
+    {
+      "item": "farmersdelight:cabbage_leaf"
+    },
+    {
+      "item": "farmersdelight:fried_rice"
+    },
+    {
+      "item": "ricedelight:cooked_wrap"
+    }
+  ],
+  "result": {
+    "item": "ricedelight:fried_rice_veggie_b",
+    "count": 1
+  }
+}

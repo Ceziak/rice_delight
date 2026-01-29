@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "ricedelight:chopped_scallions"
+    },
+    "b": {
+      "item": "farmersdelight:cooked_rice"
+    },
+    "c": {
+      "tag": "forge:crops/peppers"
+    }
+  },
+  "result": {
+    "item": "ricedelight:stuffed_bell_pepper",
+    "count": 1
+  }
+}

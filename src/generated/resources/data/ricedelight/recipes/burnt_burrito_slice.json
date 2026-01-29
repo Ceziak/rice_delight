@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "ricedelight:burnt_b"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "ricedelight:half_burnt_b"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    " b"
+  ],
+  "key": {
+    "a": {
+      "item": "ricedelight:omelette"
+    },
+    "b": {
+      "item": "farmersdelight:cooked_rice"
+    }
+  },
+  "result": {
+    "item": "ricedelight:omelette_roll",
+    "count": 2
+  }
+}

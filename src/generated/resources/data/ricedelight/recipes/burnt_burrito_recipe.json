@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:burrito_vegetables"
+    },
+    {
+      "tag": "forge:burrito_meat"
+    },
+    {
+      "item": "ricedelight:burnt_wrap"
+    },
+    {
+      "tag": "forge:burrito_rice"
+    }
+  ],
+  "result": {
+    "item": "ricedelight:burnt_b",
+    "count": 1
+  }
+}

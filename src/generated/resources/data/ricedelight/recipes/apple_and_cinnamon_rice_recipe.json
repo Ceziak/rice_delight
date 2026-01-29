@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    { "tag": "forge:crops/rice" },
+    { "item": "minecraft:apple" },
+    { "item": "ricedelight:cinnamon" }
+  ],
+  "result": {
+    "item": "ricedelight:apple_cinnamon_rice"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "experience": 1.0,
+  "cookingtime": 200
+}

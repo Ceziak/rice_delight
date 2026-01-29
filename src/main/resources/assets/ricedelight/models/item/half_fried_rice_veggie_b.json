@@ -1,0 +1,7 @@
+
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ricedelight:item/fried_rice_veggie_sliced_burrito"
+  }
+}

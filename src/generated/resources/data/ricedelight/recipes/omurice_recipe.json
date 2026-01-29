@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ricedelight:omelette"
+    },
+    {
+      "item": "farmersdelight:cooked_rice"
+    },
+    {
+      "item": "ricedelight:chopped_scallions"
+    }
+  ],
+  "result": {
+    "item": "ricedelight:omurice",
+    "count": 1
+  }
+}
