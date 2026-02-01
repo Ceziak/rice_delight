@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "farmersdelight:cooked_rice"
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "ricedelight:rice_dough"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:bowl"
+    }
+  ],
+  "tool": {
+    "item": "ricedelight:wooden_hammer"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "farmersdelight:cooked_rice"
+    },
+    "b": {
+      "tag": "forge:slices/fish_slices"
+    },
+    "c": {
+      "item": "minecraft:dried_kelp"
+    }
+  },
+  "result": {
+    "item": "ricedelight:onigiri",
+    "count": 2
+  }
+}

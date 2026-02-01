@@ -1,0 +1,13 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    { "tag": "forge:crops/rice" },
+    { "tag": "forge:crops/rice" }
+  ],
+  "result": {
+    "item": "ricedelight:rice_balls"
+  },
+  "experience": 1.0,
+  "cookingtime": 100
+}

@@ -2,8 +2,11 @@ package net.ceziak.ricedelight.item;
 
 import net.ceziak.ricedelight.RiceDelight;
 import net.ceziak.ricedelight.block.ModBlocks;
+import net.minecraft.world.item.BowlFoodItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemNameBlockItem;
+import net.minecraft.world.item.Items;
+import net.minecraftforge.client.event.RegisterColorHandlersEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -24,20 +27,20 @@ public class ModItems {
     public static final RegistryObject<Item> CINNAMON = ITEMS.register("cinnamon",
             () -> new Item(new Item.Properties().food(ModFoods.CINNAMON)));
     public static final RegistryObject<Item> APPLE_CINNAMON_RICE = ITEMS.register("apple_cinnamon_rice",
-            () -> new Item(new Item.Properties().food(ModFoods.APPLE_CINNAMON_RICE)));
+            () -> new BowlFoodItem(new Item.Properties().food(ModFoods.APPLE_CINNAMON_RICE)));
     public static final RegistryObject<Item> RISOTTO = ITEMS.register("risotto",
-            () -> new Item(new Item.Properties().food(ModFoods.RISOTTO)));
+            () -> new BowlFoodItem(new Item.Properties().food(ModFoods.RISOTTO)));
     public static final RegistryObject<Item> JOLLOF_RICE = ITEMS.register("jollof_rice",
-            () -> new Item(new Item.Properties().food(ModFoods.JOLLOF_RICE)));
+            () -> new BowlFoodItem(new Item.Properties().food(ModFoods.JOLLOF_RICE)));
     public static final RegistryObject<Item> STUFFED_BELL_PEPPER = ITEMS.register("stuffed_bell_pepper",
             () -> new Item(new Item.Properties().food(ModFoods.STUFFED_BELL_PEPPER)));
 
     public static final RegistryObject<Item> OMELETTE = ITEMS.register("omelette",
-            () -> new Item(new Item.Properties().food(ModFoods.RISOTTO)));
+            () -> new Item(new Item.Properties().food(ModFoods.OMELETTE)));
     public static final RegistryObject<Item> OMURICE = ITEMS.register("omurice",
-            () -> new Item(new Item.Properties().food(ModFoods.JOLLOF_RICE)));
+            () -> new BowlFoodItem(new Item.Properties().food(ModFoods.OMURICE)));
     public static final RegistryObject<Item> OMELETTE_ROLL = ITEMS.register("omelette_roll",
-            () -> new Item(new Item.Properties().food(ModFoods.STUFFED_BELL_PEPPER)));
+            () -> new Item(new Item.Properties().food(ModFoods.OMELETTE_ROLL)));
 
     public static final RegistryObject<Item> EGG_BACON_BURRITO = ITEMS.register("egg_bacon_b",
             () -> new Item(new Item.Properties().food(ModFoods.EGG_BACON_BURRITO)));
@@ -91,6 +94,24 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CHOPPED_SCALLIONS = ITEMS.register("chopped_scallions",
             () -> new Item(new Item.Properties().food(ModFoods.CHOPPED_SCALLIONS)));
+
+    public static final RegistryObject<Item> APPLE_MOCHI = ITEMS.register("apple_mochi",
+            () -> new BowlFoodItem(new Item.Properties().food(ModFoods.APPLE_MOCHI)));
+    public static final RegistryObject<Item> MELON_MOCHI = ITEMS.register("melon_mochi",
+            () -> new BowlFoodItem(new Item.Properties().food(ModFoods.MELON_MOCHI)));
+    public static final RegistryObject<Item> GLOW_BERRY_MOCHI = ITEMS.register("glow_berry_mochi",
+            () -> new BowlFoodItem(new Item.Properties().food(ModFoods.GLOW_BERRY_MOCHI)));
+    public static final RegistryObject<Item> SWEET_BERRY_MOCHI = ITEMS.register("sweet_berry_mochi",
+            () -> new BowlFoodItem(new Item.Properties().food(ModFoods.SWEET_BERRY_MOCHI)));
+    public static final RegistryObject<Item> CHOCOLATE_MOCHI = ITEMS.register("chocolate_mochi",
+            () -> new BowlFoodItem(new Item.Properties().food(ModFoods.CHOCOLATE_MOCHI)));
+
+    public static final RegistryObject<Item> ONIGIRI = ITEMS.register("onigiri",
+            () -> new Item(new Item.Properties().food(ModFoods.ONIGIRI)));
+    public static final RegistryObject<Item> RICE_BALLS = ITEMS.register("rice_balls",
+            () -> new Item(new Item.Properties().food(ModFoods.RICE_DOUGH)));
+    public static final RegistryObject<Item> RICE_DOUGH = ITEMS.register("rice_dough",
+            () -> new Item(new Item.Properties().food(ModFoods.RICE_DOUGH)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

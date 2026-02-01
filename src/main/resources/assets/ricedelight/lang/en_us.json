@@ -54,5 +54,15 @@
   "block.ricedelight.bell_pepper_crate": "Bell Pepper Crate",
   "block.ricedelight.bell_pepper_crop": "Bell Peppers",
 
+  "item.ricedelight.chocolate_mochi": "Bowl Of Chocolate Mochi",
+  "item.ricedelight.sweet_berry_mochi": "Bowl Of Sweet Berry Mochi",
+  "item.ricedelight.apple_mochi": "Bowl Of Apple Mochi",
+  "item.ricedelight.glow_berry_mochi": "Bowl Of Glow Berry Mochi",
+  "item.ricedelight.melon_mochi": "Bowl Of Melon Mochi",
+
+  "item.ricedelight.rice_dough": "Rice Dough",
+  "item.ricedelight.onigiri": "Onigiri",
+  "item.ricedelight.rice_balls": "Rice Balls",
+
   "creativetab.rice_delight": "Rice Delight"
 }

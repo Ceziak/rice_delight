@@ -78,4 +78,23 @@ public class ModFoods {
             .saturationMod(1.25f).build();
     public static final FoodProperties STUFFED_BELL_PEPPER = new FoodProperties.Builder().nutrition(12)
             .saturationMod(1.25f).build();
+
+    public static final FoodProperties ONIGIRI = new FoodProperties.Builder().nutrition(6)
+            .saturationMod(1.25f).build();
+    public static final FoodProperties RICE_BALLS = new FoodProperties.Builder().nutrition(3)
+            .saturationMod(1.25f).build();
+    public static final FoodProperties RICE_DOUGH = new FoodProperties.Builder().nutrition(2)
+            .saturationMod(1.25f).build();
+
+    public static final FoodProperties APPLE_MOCHI = new FoodProperties.Builder().nutrition(8)
+            .saturationMod(1.25f).build();
+    public static final FoodProperties GLOW_BERRY_MOCHI = new FoodProperties.Builder().nutrition(8)
+            .saturationMod(1.25f).effect(() -> new MobEffectInstance(MobEffects.GLOWING, 100), 0.75f).build();
+    public static final FoodProperties SWEET_BERRY_MOCHI = new FoodProperties.Builder().nutrition(8)
+            .saturationMod(1.25f).build();
+    public static final FoodProperties MELON_MOCHI = new FoodProperties.Builder().nutrition(8)
+            .saturationMod(1.25f).build();
+    public static final FoodProperties CHOCOLATE_MOCHI = new FoodProperties.Builder().nutrition(8)
+            .saturationMod(1.25f).build();
+
 }

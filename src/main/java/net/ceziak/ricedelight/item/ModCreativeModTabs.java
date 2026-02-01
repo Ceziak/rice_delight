@@ -67,6 +67,16 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(ModBlocks.BASIL_CRATE.get());
                         pOutput.accept(ModBlocks.BELL_PEPPER_CRATE.get());
+
+                        pOutput.accept(ModItems.ONIGIRI.get());
+                        pOutput.accept(ModItems.RICE_DOUGH.get());
+                        pOutput.accept(ModItems.RICE_BALLS.get());
+
+                        pOutput.accept(ModItems.APPLE_MOCHI.get());
+                        pOutput.accept(ModItems.GLOW_BERRY_MOCHI.get());
+                        pOutput.accept(ModItems.SWEET_BERRY_MOCHI.get());
+                        pOutput.accept(ModItems.MELON_MOCHI.get());
+                        pOutput.accept(ModItems.CHOCOLATE_MOCHI.get());
                     })
                     .build());
 
