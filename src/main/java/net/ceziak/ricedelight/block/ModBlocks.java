@@ -2,10 +2,12 @@ package net.ceziak.ricedelight.block;
 
 import net.ceziak.ricedelight.RiceDelight;
 import net.ceziak.ricedelight.item.ModItems;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.FlowerBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -28,6 +30,11 @@ public class ModBlocks {
             () -> new BellPepperCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
     public static final RegistryObject<Block> BASIL_CROP = BLOCKS.register("basil_crop",
             () -> new BasilCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
+
+    public static final RegistryObject<Block> WILD_BELL_PEPPER_CROP = registerBlock("wild_bell_peppers",
+            () -> new FlowerBlock(() -> MobEffects.FIRE_RESISTANCE, 2, BlockBehaviour.Properties.copy(Blocks.DANDELION).noCollission().noOcclusion()));
+    public static final RegistryObject<Block> WILD_BASIL_CROP = registerBlock("wild_basil",
+            () -> new FlowerBlock(() -> MobEffects.FIRE_RESISTANCE, 2, BlockBehaviour.Properties.copy(Blocks.DANDELION).noCollission().noOcclusion()));
 
 
 
